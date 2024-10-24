@@ -242,7 +242,7 @@ def check_time_completeness(df):
     
     return completeness_check
 
-file_path = r"C:\Users\Manzur\OneDrive\Documents\GitHub\MapUp-DA-Assessment-2024\submissions\dataset-1.csv"
+file_path = "https://raw.githubusercontent.com/KhamurunnisaMD/MapUp-DA-Assessment-2024/refs/heads/main/submissions/dataset-1.csv"
 df = pd.read_csv(file_path)
 
 incorrect_timestamps = check_time_completeness(df)

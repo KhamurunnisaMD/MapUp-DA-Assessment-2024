@@ -32,7 +32,7 @@ def calculate_distance_matrix(file_path):
 
 if __name__ == "__main__":
     # Update with the actual link to your CSV
-    file_path = r"C:\Users\Manzur\OneDrive\Documents\GitHub\MapUp-DA-Assessment-2024\submissions\dataset-2.csv"
+    file_path = "https://raw.githubusercontent.com/KhamurunnisaMD/MapUp-DA-Assessment-2024/refs/heads/main/submissions/dataset-2.csv"
     distance_matrix = calculate_distance_matrix(file_path)
     print(distance_matrix)
     
