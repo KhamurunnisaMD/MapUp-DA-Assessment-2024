@@ -62,7 +62,7 @@ if __name__ == "__main__":
     # Assuming distance_matrix is already calculated
     # Example usage
     # Update with the actual link to your CSV
-    file_path = r"C:\Users\Manzur\OneDrive\Documents\GitHub\MapUp-DA-Assessment-2024\submissions\dataset-2.csv"
+    file_path = "https://raw.githubusercontent.com/KhamurunnisaMD/MapUp-DA-Assessment-2024/refs/heads/main/submissions/dataset-2.csv"
     
     # First calculate the distance matrix
     distance_matrix = calculate_distance_matrix(file_path)
